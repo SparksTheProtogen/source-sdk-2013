@@ -35,6 +35,12 @@
 			game+mod+custom_mod	mod_tf/custom/*
 			// Enable this if you want to load your TF custom content.
 			//game+mod+custom_mod	|appid_440|tf/custom/*
+			Game	|gameinfo_path|.
+			Game	"D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\tf_2_dir.vpk"
+			Game	"D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\tf_textures_dir.vpk"
+			Game	"D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\tf_misc_dir.vpk"
+			Game	"D:\SteamLibrary\steamapps\common\Team Fortress 2\tf"
+			Game	"D:\SteamLibrary\steamapps\common\Source SDK Base 2013 Multiplayer\hl2"
 
 			// Now search loose files.  We'll set the directory containing the gameinfo.txt file
 			// as the first "mod" search path (after any user customizations).  This is also the one
@@ -64,6 +70,7 @@
 			game				|appid_440|tf
 			game				|appid_243750|hl2
 			platform			|appid_243750|platform
+
 
 			// Random files downloaded from gameservers go into a seperate directory, so
 			// that it's easy to keep those files segregated from the official game files
